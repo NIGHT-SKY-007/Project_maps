@@ -28,8 +28,9 @@ class MapsPage extends StatefulWidget {
 }
 
 class _MapsPageState extends State<MapsPage> {
-  final LatLng _origin = const LatLng(28.7041, 77.1025); // New Delhi
-  final LatLng _destination = const LatLng(28.4595, 77.0266); // Gurugram
+  final LatLng _origin = const LatLng(40.7128, -74.0060); // New York
+  final LatLng _destination = const LatLng(40.7831, -73.9712); // Manhattan
+  
   List<LatLng> _routePoints = [];
   bool _isLoading = false;
   bool _showTraffic = false;
